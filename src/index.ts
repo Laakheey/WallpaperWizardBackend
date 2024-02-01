@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
-import connectDb from "./utils/dbConnect";
-import wallpaper_router from './router/wallpaper-route';
+import connectDb from "../utils/dbConnect";
+import wallpaper_router from '../router/wallpaper-route';
 import cors from 'cors'
 
 dotenv.config();
