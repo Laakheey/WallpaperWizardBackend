@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Wallpaper from "../models/wallpaper-model";
+import Wallpaper from "../models/wallpaper-model.js";
 
 const postWallpaper = async (req: Request, res: Response) => {
   try {

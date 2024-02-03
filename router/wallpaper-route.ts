@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getWallpaperById, getWallpapers, postWallpaper } from "../controller/wallpaper-controller";
+import { getWallpaperById, getWallpapers, postWallpaper } from "../controller/wallpaper-controller.js";
 
 const router = Router();
 
